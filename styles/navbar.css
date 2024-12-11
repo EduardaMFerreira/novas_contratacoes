@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.logo_imagem {
+    background-image: url("../img/worldwide\ 1\ \(Traced\).svg");
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.navegacao {
+    display: flex;
+    gap: 2em;
+
+}
+
+.navegacao_link {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
+
+.botao_entrar {
+    border: none;
+    background: none;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
+
+.botao_cadastro {
+    border: none;
+    background: var(--cor-segundaria);
+    color: var(--cor-terciaria);
+    padding: 0.8em 1.4em;
+    border-radius: 0.6em;
+    font-weight: 500;
+}
+
+.botao {
+    display: flex;
+    gap: 1em;
+    
+}
