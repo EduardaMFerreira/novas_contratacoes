@@ -7,10 +7,6 @@
     padding: 1em 0;
 }
 
-.logo_imagem {
-    background-image: url("../img/worldwide\ 1\ \(Traced\).svg");
-}
-
 .logo {
     display: flex;
     align-items: center;

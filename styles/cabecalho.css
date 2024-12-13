@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.cabecalho {
+    text-align: center;
+    padding: 3em 25%;
+}
+
+.cabecalho__sobre {
+    color: var(--cor-segundaria);
+    font-weight: 600;
+}
+
+.cabecalho__titulo {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cabecalho__texto {
+    font-size: 20px;
+    color: var(--cor-primaria);
+}
+
+.cabecalho__sobre, .cabecalho__texto, .cabecalho__titulo {
+    padding: 0.5em 0;
+}
