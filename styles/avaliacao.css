@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.avaliacao {
+    display: grid;
+    grid-template-rows: "concluidos colaboradores downloads estrelas";
+    padding: 3em;
+
+}
+
+.concluidos {
+    grid-row: concluidos;
+}
+
+.colaboradores {
+    grid-row: colaboradores;
+}
+
+.downloads {
+    grid-row: downloads;
+}
+
+.estrelas {
+    grid-row: estrelas;
+}
+
+.avaliacao__descricao{
+    padding: 0 3em;
+}
+
+.avaliacao__descricao h2 {
+    color: var(--cor-segundaria);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.avaliacao__descricao h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1em 0 0.5em 0;
+}
+
+.avaliacao__descricao p {
+    color: var(--cor-primaria);
+}
