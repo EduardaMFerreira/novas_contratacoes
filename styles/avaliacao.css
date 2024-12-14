@@ -3,7 +3,7 @@
 .avaliacao {
     display: grid;
     grid-template-rows: "concluidos colaboradores downloads estrelas";
-    padding: 3em;
+    padding: 4em;
 
 }
 

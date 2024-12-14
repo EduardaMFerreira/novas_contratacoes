@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.talentos {
+    padding: 4em;
+    text-align: center;
+}
+
+.talentos span {
+    background-color: #8e242415;
+    padding: 0.5em 0.7em;
+    border-radius: 2em;
+    color: var(--cor-segundaria);
+    font-weight: 500;
+}
+
+.talentos h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0.9em;
+}
+
+.talentos p {
+    color: var(--cor-primaria);
+    font-size: 20px;
+}
+
+.talentos img {
+    width: 95%;
+    padding-top: 4em;
+}
