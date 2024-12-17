@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.rodape {
+    background: #F9FAFB;
+    margin-top: 5em;
+    text-align: center;
+    padding: 4em;
+}
+
+.rodape h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.rodape p {
+    font-size: 400;
+    font-size: 20px;
+    color: var(--cor-primaria);
+    padding: 1em 0 1.5em 0;
+}
+
+.rodape__caixadtexto {
+    width: 25em;
+    border: 1.5px solid #98a2b3ae;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+}
+
+.rodape__botao {
+    color: var(--cor-terciaria);
+    background: var(--cor-segundaria);
+    font-weight: 500;
+    border: none;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    margin: 0.5em;
+}
+
+form {
+    padding-bottom: 1.5em;
+}
+
+.rodape span {
+    color: #98a2b3;
+}
